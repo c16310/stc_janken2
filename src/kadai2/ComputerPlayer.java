@@ -12,7 +12,7 @@ public class ComputerPlayer extends  Player{
     }
     
     //コンピュータの手を乱数で生成するようにする//
-    public int {
+    public int nextHand() {
         return rand.nextInt(3);
     }
 }

@@ -11,5 +11,5 @@ package kadai2;
 public abstract class Player {
     int hand;                       //ジャンケンの手(0..グー/1..チョキ/2..パー)
     
-    
+    public abstract int nextHand();
 }

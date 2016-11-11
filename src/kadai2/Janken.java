@@ -17,10 +17,10 @@ public class Janken {
         
         do {
             //コンピュータの手を読み込む
-            int comp = cp.();
+            int comp = cp.nextHand();
             
             //プレイヤーの手を読み込む
-            int user = hp.();
+            int user = hp.nextHand();
             
             //コンピュータの手とプレイヤーの手を表示する
             System.out.println("私は" + hands[comp] + "で、あなたは" + 
